@@ -1,2 +1,3 @@
 # banking-app
-A JavaScript project
+
+A JavaScript

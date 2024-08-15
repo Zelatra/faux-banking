@@ -120,7 +120,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"main.js":[function(require,module,exports) {
 var open = document.getElementById('open');
 var modal_container = document.getElementById('modal_container');
-var send_modal = document.getElementById('send_modal');
+var send_modal = document.getElementById('modal_container');
 var close = document.getElementById('close');
 var open_send = document.getElementById('open_send');
 open.addEventListener('click', function () {
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53197" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55329" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
