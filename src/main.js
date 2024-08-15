@@ -1,5 +1,6 @@
 const open = document.getElementById('open');
 const modal_container = document.getElementById('modal_container');
+const send_modal = document.getElementById('send_modal');
 const close = document.getElementById('close');
 const open_send = document.getElementById('open_send');
 
@@ -12,5 +13,9 @@ close.addEventListener('click', () => {
 });
 
 open_send.addEventListener('click', () => {
-  modal_container.classList.add('show');
+  send_modal.classList.add('show');
+});
+
+close_send.addEventListener('click', () => {
+  send_modal.classList.remove('show');
 });
