@@ -39,6 +39,18 @@ button {
   width: 150px;
 }
 
+.submit-btn {
+  background-color: #117305;
+  color: #fff;
+  text-shadow:
+    1px 0 black,
+    0 -1px black,
+    -1px 0 black,
+    0 1px black;
+  font-size: 16px;
+  width: 150px;
+}
+
 .modal-container {
   display: flex;
   align-items: center;
