@@ -74,7 +74,8 @@ button {
 }
 
 .modal {
-  background-color: #fff;
+  border: #117305 5px solid;
+  background-color: gainsboro;
   border-radius: 5px;
   padding: 30px 50px;
   width: 600px;
