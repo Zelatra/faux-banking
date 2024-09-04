@@ -20,5 +20,5 @@ close_send.addEventListener('click', () => {
   send_modal.classList.remove('show');
 });
 
-let currentMoney = 0.00;
-// document.write(currentMoney);
+
+
