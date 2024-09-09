@@ -25,6 +25,10 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
+  border: 2px solid black;
+  margin-right: 40%;
+  margin-left: 40%;
+  /* margin-top: 40px; */
 }
 
 button {
