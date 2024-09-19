@@ -23,12 +23,12 @@ body {
   /* display: flex; */
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 50vh;
   margin: 0;
   border: 2px solid black;
   margin-right: 40%;
   margin-left: 40%;
-  /* margin-top: 40px; */
+  vertical-align: middle;
 }
 
 button {
@@ -86,5 +86,7 @@ button {
   max-width: 100%;
   text-align: center;
 }
+
+
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
