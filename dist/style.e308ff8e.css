@@ -9,6 +9,7 @@
 .banner {
   background-color: #117305;
   background: #117305;
+  border-bottom: 2px solid black;
   width: 100%;
   position: absolute;
   text-align: center;
@@ -29,6 +30,10 @@ body {
   margin-right: 40%;
   margin-left: 40%;
   vertical-align: middle;
+}
+
+.balance {
+  
 }
 
 button {
