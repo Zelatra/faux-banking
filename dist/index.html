@@ -13,7 +13,7 @@ currentMoney = currentMoney.toFixed(2);</script>
 
 <body>
   <div></div>
-  <div id="app" class="container">
+  <div id="app">
   <h2>Current balance:$
     <script>document.write(currentMoney);</script></h2>
   <br>
@@ -21,7 +21,7 @@ currentMoney = currentMoney.toFixed(2);</script>
   <div class="modal-container" id="modal_container">
     <div class="modal">
       <h1>Request money</h1>
-      <p>Enter amount: <input type="number" value="0.00" step=".01"></p>
+      <p>Enter amount: <input type="number" value="0.00" step=".01" min="0" oninput="validity.valid||(value='')"></p>
       <input type="submit" id="submit" class="submit-btn">
       <button id="close">Close</button>
     </div>
@@ -32,7 +32,7 @@ currentMoney = currentMoney.toFixed(2);</script>
   <div class="modal-container" id="send_modal">
     <div class="modal">
     <h1>Send money</h1>
-    <p>Enter amount: <input type="number" value="0.00" step=".01"></p>
+    <p>Enter amount: <input type="number" value="0.00" step=".01" min="0" oninput="validity.valid||(value='')"></p>
     <input type="submit" id="submit" class="submit-btn">
     <button id="close_send">Close</button>
     </div>
